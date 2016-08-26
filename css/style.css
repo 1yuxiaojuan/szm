@@ -1,0 +1,19 @@
+body{
+    background-color:#DB554E;
+}
+.container{
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo img{
+    width:100%;
+    animation:slideInDown 1s 0s ease-out both;
+    -webkit-animation:slideInDown 1s 0s ease-out both;
+}
+.se img{
+    width: 100%;
+    height: auto;
+    animation:pulse 1s 1s ease-out both;
+    -webkit-animation:pulse 1s .6s ease-out both;
+}

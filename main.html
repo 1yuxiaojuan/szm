@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./lib/jquery/jquery-1.12.3.min.js"></script>
+    <style>
+        body{margin:0px;background-image: url('./images/global/bg.jpg');background-repeat: no-repeat;  background-size: cover;}
+        .container{width: 1024px; margin: auto;}
+        .container .texure{margin: auto;width: 740px;height: 590px;  background-size: cover;  background-image: url('./images/global/bg-texture.png');z-index: 2;}
+
+        body>header>.level1{position:relative;}
+
+        body>header>.level2{margin: 0px;  height:100px; background-image: url('./images/global/header-bg.jpg');position: relative;z-index:20;z-index: 20;}
+
+        body>header>.level1{width: 560px;left: 45px;top: 15px;height: 88px;background-image: url('./images/global/logo.png');position: absolute;background-size: contain; z-index: 22; background-repeat: no-repeat;}
+
+        body>.front{position:absolute; z-index: 3;top:40px; height: 100px;z-index:3;}
+
+        body>.front>.container>.top{background-repeat: no-repeat;background-image: url('./images/global/top.png');position: relative;;top:-28px;height: 236px;width: 1222px;left: 96px;background-size:cover;}
+
+        body>.front>.container>.bottom{background-repeat: no-repeat;background-image: url('./images/global/bottom.png');position: relative;top: -3px;height: 236px;width: 1222px;left: 96px;background-size:cover;}
+
+        body>.front>.container>.arrow{background-image: url('./images/global/arrow.png');position: relative;  width: 262px;top: 30px;height: 52px;left: 655px;background-size: contain;background-repeat: no-repeat;}
+        body>footer>.container>.level1{background-image: url('./images/global/zi.png');position: relative;background-size: contain;width: 130%;height: 29px;top: -23px;left: -151px;background-repeat: no-repeat;background-size: contain;}
+        body>footer>.container>.level2{background-image: url('./images/global/blue.png');position: relative;width:1440px;height: 46px;top: 0px;right: 208px;}
+        body>footer>.container>.level2>.shi{background-image: url('./images/global/shi.png');background-size: contain;position: absolute;width:50%;height:17px;top:16px;left:51px;background-repeat: no-repeat;}
+
+        body>footer>.container>ul{position: absolute; top:0; list-style: none;}
+        body>footer>.container>ul>li {position: absolute;background-color: green;width:50px;height:31px;top:50px;}
+        body>footer>.container>ul .page1btn{width: 160px;left: -165px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container> ul .page2btn{width: 160px;left: 35px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container> ul .page3btn{width: 160px;left: 235px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container> ul .page4btn{width: 160px;left: 445px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container> ul .page5btn{width: 160px;left: 645px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container>ul .page6btn{width: 160px;left: 825px;top: -43px;position: absolute;opacity:0;}
+        body>footer>.container> ul .page7btn{width: 160px;left: 1005px;top: -43px;position: absolute;opacity:0;}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="level1"></div>
+    <div class="level2"></div>
+</header>
+
+<div class="bg-texure" >
+    <div class="container">
+        <div class="texure"></div>
+    </div>
+</div>
+
+<div class="front">
+    <div class="container">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <div class="arrow"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="level1"></div>
+        <div class="level2"><div class="shi"></div></div>
+        <ul>
+            <li class="page1btn"></li>
+            <li class="page2btn"></li>
+            <li class="page3btn"></li>
+            <li class="page4btn"></li>
+            <li class="page5btn"></li>
+            <li class="page6btn"></li>
+            <li class="page7btn"></li>
+        </ul>
+
+    </div>
+</footer>
+<script src="./js/main.js"></script>
+</body>
+</html>

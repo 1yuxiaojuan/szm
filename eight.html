@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/animation.css">
+    <script src="./lib/jquery/jquery-1.12.3.min.js"></script>
+    <style>
+        body{margin:0px;background-image: url('./images/page-3/body-bg.jpg');background-repeat: no-repeat;  background-size: cover;position: relative;z-index: 2;}
+        body>header>.left{background-image: url('./images/page-3/header-bg.png');background-repeat: no-repeat;width: 333px;height: 201px;left: 0px;position: relative;z-index: 3;margin: 0px;}
+        body>header>.zi{background-image: url('./images/page-3/header-zi.png');background-repeat: no-repeat;background-size: contain;top: 15px;left: 9px;position: absolute;z-index: 4;  height: 180px;width: 301px;}
+
+
+
+        body>.content>.left{background-color: #000;opacity:.5;position: absolute;width:876px;height:540px;top:201px;z-index:4;}
+        body>.content>.left>.top{background-image: url('./images/page-8/left.png');background-repeat: no-repeat;background-size: contain;z-index:5;height:624px;left:29px;position: relative;top:32px;}
+        body>.content>.container>.tu{background-image: url('./images/page-8/right.png');background-repeat: no-repeat;background-size: contain;z-index: 8;position: absolute;top: 233px;height:477px;left:388px;width:464px;}
+
+
+
+        body>footer>.container{width: 1024px; margin: auto;position: relative}
+        body>footer>.container>.level2{background-image: url('./images/global/blue.png');position: relative;width:1440px;height: 46px;top: 540px;left:-207px;}
+        body>footer>.container>.level2>.shi{background-image: url('./images/global/shi.png');background-size: contain;position: absolute;width:50%;height:17px;top:16px;left:51px;background-repeat: no-repeat;}
+        body>.content>.left>.btn4{color:blue;width: 100px;height: 50px;line-height: 50px;text-align: center;border: 1px solid grey;border-radius: 50px;z-index: 8;position: absolute;top: 17px;  left: 21px;}
+        .btn4:hover{background-color: #008000;cursor: pointer;opacity: .3;}
+    </style>
+</head>
+
+
+<body>
+<header>
+    <div class="left"></div>
+    <div class="zi"></div>
+</header>
+<div class="content">
+    <div class="left">
+        <div class="top"></div>
+        <div class="btn4"></div>
+    </div>
+    <div class="container">
+        <div class="tu"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="level2"><div class="shi">
+        </div>
+        </div>
+
+    </div>
+</footer>
+<script src="./js/main.js"></script>
+</body>
+</html>
